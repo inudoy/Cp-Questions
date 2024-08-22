@@ -3,6 +3,11 @@ using namespace std;
 
 int main()
 {
+#ifndef ONLINE_JUDGE //if not defined
+    freopen("input.txt","r",stdin);
+    freopen("output.txt","w",stdout);
+    #endif // if defined
+
     int c = 0;
     int a, b;
 
@@ -22,3 +27,4 @@ int main()
 
     return 0;
 }
+
